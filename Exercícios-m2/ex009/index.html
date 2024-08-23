@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(121, 121, 121);
+        }
+
+        header{
+            background-color: rgb(39, 39, 39);
+            padding: 10px;
+            border-radius: 7px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 700px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.514);
+        }
+
+        header > h1{
+            text-align: center;
+            color: rgb(255, 255, 255);
+            text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.411);
+            font-size: 40px;
+        }
+
+        #assuntos{
+            background-color: rgba(255, 255, 255, 0.596);
+            font-size: 1.3em;
+            width: 560px;
+            margin: auto;
+            margin-bottom: 10px;
+            padding-bottom: 1px;
+            border-radius: 37px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.514);
+        }
+
+        #assuntos > h2{
+            text-align: center;
+        }
+
+        .li-assuntos{
+            width: 400px;
+            margin: auto;
+            margin-bottom: 23px;
+            border-radius: 17px;
+            font-size: 1.3em;
+            box-shadow:2px 2px 2px rgba(0, 0, 0, 0.075);
+        }
+
+        #noticias{
+            background-color: rgba(255, 255, 255, 0.596);
+            font-size: 1.5em;
+            border-radius: 20px;
+            margin: auto;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 1028px;
+            margin-bottom: 50px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.274);
+        }
+
+        .ti-noticias{
+            text-align: center;
+        }
+
+        .te-noticia{
+            text-indent: 10px;
+        }
+
+        .rodape{
+            font-size: 20px;
+            font-family: serif;
+            text-align: center;
+        }
+
+        footer{
+            background-color: rgb(39, 39, 39);
+            padding: 10px;
+            border-radius: 7px;
+            margin-bottom: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.514);
+        }
+
+        footer > p{
+            text-align: center;
+            color: white;
+            text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.411);
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>Assuntos a se tratar:</h2>
+            <ol class="li-assuntos">
+                <li>Primeiro Assunto</li>
+                <li>Segundo Assunto</li>
+                <li>Terceiro Assunto</li>
+                <li>Quarto Assunto</li>
+            </ol>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 class="ti-noticias">Título notícias</h2>
+                <p class="te-noticia">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum eligendi consequuntur excepturi? Praesentium ut nesciunt delectus alias tenetur sunt nulla provident nihil exercitationem velit reiciendis laudantium saepe, ex dignissimos minus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, magnam iusto commodi illo quidem nesciunt perspiciatis consectetur ex odio eum itaque placeat, excepturi fuga nisi atque exercitationem dicta. Aut, necessitatibus.</p>
+                <aside>
+                    <p class ="rodape">escrito por Fulano</p>
+                </aside>
+            </article>
+            <article>
+                <h2 class="ti-noticias">Título de outra notícia</h2>
+                <p class="te-noticia">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio expedita laborum ex molestiae qui minima exercitationem voluptatibus rerum alias voluptates similique quis quibusdam, ipsam ea, fuga ullam excepturi natus ut?</p>
+                <aside>
+                    <p class ="rodape">escrito por Beltrano</p>
+                </aside>
+            </article>
+            <article>
+                <h2 class="ti-noticias">Título de outra notícia</h2>
+                <p class="te-noticia">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, minus architecto assumenda quos quam saepe unde tenetur nihil quasi, labore nobis nam quidem sint. Repudiandae quasi dicta doloribus eligendi id? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a, earum dicta doloremque sint atque maxime. Dolor vel quisquam laborum est provident molestiae nam fugiat cumque atque velit? Dolore, aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero delectus obcaecati, quis ipsam illo aspernatur hic ab, odit ad molestiae maxime, voluptate mollitia officia dolores fugit! Tempore sit aspernatur dolorem?</p>
+                <aside>
+                    <p class ="rodape">escrito por Ciclano</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por Roger Modé Cordeiro</p>
+    </footer>
+</body>
+</html>

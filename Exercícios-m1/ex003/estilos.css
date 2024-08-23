@@ -1,0 +1,23 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+#parágrafo1{
+    text-decoration: underline;
+    color: white;
+}
+
+#meme{
+    padding: 0;
+    margin: 0;
+}

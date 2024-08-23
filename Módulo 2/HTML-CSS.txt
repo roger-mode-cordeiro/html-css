@@ -1,0 +1,172 @@
+//HARMONIA DE CORES:
+    entre as cores primárias tem uma forma grosseira para transição
+     assim como as secundárias;
+        
+    já as terciárias são a mistura das primárias com as secundárias;
+
+    as cores frias ou quentes:
+        se entrelaçam entre si
+         ex:
+            quente com quente;
+            frio com frio;
+
+//PALETAS:
+    tem no máximo 5 cores e no mínimo 3 (normalmente 4)
+
+        para definir a paleta pode-se usar:
+            a logo do cliente;
+            usar cores análogas;
+            usar cores complementares;
+            usar cores complementar junto das análogas;
+            cores análçogas relacionadas
+
+//CORES COMPLEMENTARES:
+    cores contrárias na roda cromática
+
+        CUIDADO!:
+            não necessáriamente ficam bonitas
+
+//CORES ANÁLOGAS
+    cores similares (cores ao lado na roda cromática)
+
+//CORES ANÁLOGAS RELACIONADAS:
+    pular uma cor na roda cromática
+
+//CORES INTERCALADAS:
+    assim como o nome, intercala-se na roda crmática
+
+//MONOCROMIA:
+    escolher uma cor e mudar a iluminação e a saturação
+
+//SELETOR GLOBAL:
+    *{
+        
+    }
+
+//MEDIDAS DAS FONTES:
+    medidas absolutas: será exibido como falado mas depende da tela.
+        cm(não usar);
+        mm(não usar);
+        in(não usar);
+        px(usar);
+        pt(não usar);
+        pc(não usar);
+        ect.
+
+    medidas relativas:
+        em(tamanho atual da fonte{usar});
+        ex(tamanho x);
+        rem(relativo ao body);
+        vw(relativo a largura da view port);
+        vw(relativo a altura da view port);
+        %;
+        etc.
+
+//ORDEM PARA COLOCAR NA SHORTHAND DE FONTS(unificação do modo da fonte{tag:"font:"}):
+    font-style ->font-weight -> font-size -> font-family
+
+//ID e CLASS:
+    
+    usa-se o "id" para usar em uma única tag do documento
+    
+    já o "class" usa-se para mais de uma tag do documento
+        posso usar duas ou mais classes separadas por um espaço
+        ex:
+            <h1 id="classe-1 classe-2">
+    
+    para puxar um id no CSS
+        coloca-se a #
+    
+    já para puxar uma class no CSS
+        usa-se o .
+
+//DIFERENÇA ENTRE HEIGHT, WEIGHT e WIDTH:
+    height=altura;
+    widht=largura;
+    weight=peso da letra
+
+//PSEUDO-CLASSES e PSEUDO-ELEMENTOS:
+    para usar uma pseudo-classe
+        usa-se os ":"
+
+    para usar um pseudo-elemento
+        usa-se os "::"
+    
+    sempre deve estar ligada a um elemento ou uma classe
+
+//O USO DO ">" EM CSS:
+    usamos para dizer que o item que estamos mexendo é filho do outro
+    ex:
+        div > p{}
+         ^    ^
+         |    |
+        pai filho
+
+//ANATOMIA DE CAIXAS:
+    todo elemento visivel na tela é uma caixa;
+    a border é uma linha que contorna o conteúdo;
+    padding é a distância do conteúdo da borda;
+    margin é a distância externa;
+    outline é o espaço entra a border e o margin;
+
+//TIPOS DE CAIXAS
+    box-level:
+        é uma caixa que oucupa a largura total da tela e sempre começa em um espaço novo
+            ex:
+                <div>
+                <h1>-<h6>
+                <p>
+                <main>
+                <header>
+                <nav>
+                <article>
+                <aside>
+                <footer>
+                <form>
+                <video>
+
+    inline-level:
+        é uma caixa que preenche um espaço
+            ex:
+                <span>
+                <a>
+                <code>
+                <small>
+                <strong>
+                <em>
+                <sup>-<sub>
+                <label>
+                <button>
+                <input>
+                <select>
+
+//SHORTHANDS das CAIXAS:
+    border: 
+        widht;
+        style;
+        color.
+
+    padding:
+        top;
+        right;
+        bottom;
+        left.
+
+    margin:
+        top;
+        right;
+        bottom;
+        left.
+
+//COMO FAZER O PLANEJAMENTO DE UM SITE:
+    1. layout:
+        usar o site "mockflow"
+    2. cores
+    3.fontes
+
+//VARIAVEIS EM CSS:
+    para criar variaveis em CSS deve-se usar
+        "--"+nome variavel
+    usando :root{
+        
+    }

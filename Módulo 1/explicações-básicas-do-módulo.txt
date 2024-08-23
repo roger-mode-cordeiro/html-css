@@ -1,0 +1,50 @@
+//AVISOS!!!
+  Módulo 1-5: gitHub.com/gustavoguanabara, gustavoguanabara.github.io
+
+//ATENÇÃO!!
+
+  Não "maratonar",praticar assim que ordenado,não ter pressa
+
+  TER ROTINAS!!!!
+
+//"definição" de cada linguagem:
+
+  HTML=base do site
+  CSS=estilização/modificação do site
+  JS=interação
+
+
+//Funcionamento "HTML"
+
+  abertura de tag        fechamento de tag
+  ^          conteúdo    ^
+  |          ^           |
+  |          |           |
+  <h1>Exempl de título </h1>
+
+  <img src="foto.png" alt="Exemplo de foto"
+  |                   |           |
+  \/                  \/          \/
+  abertura de tag     parâmetro    valor
+
+//Funcionamento "CSS":
+
+  ex:seletor--> h1{
+  ex:declaração--> font-family:Arial;  -->'font-family':propriedade, -->"Arial":valor
+                  }
+
+//Estrura básica "HTML"
+
+  <!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+    <meta charset="UTF-8>
+    <meta name="viewport"
+    content="width=device-widht,
+    initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+        <h1>Olá Mundo</h1>
+    </body>
+  </html>

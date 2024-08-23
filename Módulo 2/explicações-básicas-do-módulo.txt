@@ -1,0 +1,53 @@
+//OQUE VOU APRENDER NESSE MÓDULO:
+    APRENDER SOBRE CORES;
+    TIPOGRAFIA(fontes);
+    FUNCIONAMENTO CSS;
+    CAIXAS;
+    FAZER SITE DO 0!
+
+//PARA QUE USAR CADA COR
+
+    Azul= competência,sabedoria,calma,confiança,profissionalismo,integridade,segurança e etc;
+
+    Vermelho= amor,emoção,energia,raiva,perigo e etc
+        usado para sites de comida,moda,entretênimento,emergencia,saúde e etc;
+
+    Fundo Preto= usado para uma interface visual sem muita informação textual;
+
+    Amarelo= felicidade,alegria,otimismo e etc
+        dourado pode ser usado para luxo;
+
+    Verde= saúde,natureza,dinheiro,sorte,inveja,ralaxamento,turismo,relações financeiras,meio ambiente,luxo,tecnologia e:
+        nada para meninas adolescentes;
+
+    Rosa= amor,romance,sinceridade,uso feminino
+        não usar para coisas não doces;
+
+    Marrom= robustez,estabilidade,amizade,luxo;
+
+    Roxo= criatividade,poder,sabedoria,coisas inovadoras/criativas
+        não prende atenção;
+
+//COMO USAR AS CORES EM CSS
+
+    podemos usar por nomes em inglês:
+        ex:
+            blue;
+            yellow;
+            browm;
+            purple;
+        etc;
+    
+    também podemos usar a forma em hexadecimal:
+        ex:
+            #ffffff;
+            #000ff0;
+            #000000;
+            #0A0A0A;
+        etc;
+
+    também podemos usar a forma RGB;
+
+    também podemos usar a forma de HSL(matiz, saturação e luminosidade)
+
+    e por último podemos usar a forma do VsCode da tabela de cor

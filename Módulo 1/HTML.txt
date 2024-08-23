@@ -1,0 +1,90 @@
+//para parágrafos usar a tag:
+
+  <p>
+
+//e para quebrar parágrafos(delimitar as linhas) usar a tag:
+
+  <br>
+
+//para pegar um trecho do texto usar a tag:
+
+  <span>
+
+//para add emojis entrar no site "emojipedia" e pegar o código do emoji desejado. Escrevendo
+
+  "&#x" + código do emoji desejado
+
+PARA SITES COMERCIAIS TOMAR CUIDADO COM COPYRIGHT!!!
+  *FERRAMENTAS*-*DIREITOS DE USO*
+
+//PARA UTILIZAR IMAGENS EM PASTAS:
+
+  colocar a imagem em uma pasta caso não esteja
+  escrever no body:
+    <img id="(id da imagem[não é obrigatório])" src="(nome pasta)/(nome da imagem)" alt="(mensagem caso imagem não carregue)">
+
+//PARA UTILIZAR IMAGENS SEM BAIXAR:
+
+  copiar o endereço da imagem
+  escrever no body:
+    <img id="" src="(link da imagem)" alt="">
+
+//COMO COLOCAR UMA IMAGEM COMO FAVICON(imagem que aparece ao lado do title)
+
+  acessar favicom.io/cc (cada um 1 site)
+  baixar a imagem
+  jogar na pasta
+  escrever "link:favicom" e colocaro nome da sua imagem desejada
+
+//HIERARQUIA DE TÍTULOS
+
+  existem seis tipos de parágrafos:
+
+    <h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+  o número define que é um derivado de seu título sucessor
+  ex:
+    <h1> não tem derivado
+    <h2> derivado do <h1>
+    <h3> derivado do <h2>
+    ...
+  pode se ter um ou mais de cada <h_>
+
+  para cada título que fizer,pode-se colocar um simulador de parágrafos escrevendo:
+
+    "lorem"
+
+//TAGS OBSOLETAS
+
+  são tag que vão parar de funcionar pois foram substituídas ou etc.
+  ver quais são antes de projetos
+
+//FORMATAÇÃO
+
+  pode-se usar o <code> para deixar um texto monoespacial
+  para se colocar significados de abreviações pode-se usar <abbr>
+  e para deixar um texto invertido pode-se usar a tag <bdo dir="ltr" ou "rtl"> //K
+
+//LISTAS
+  as listas podem ser ordenadas, não ordenadas e de definição
+  para colocar itens nas listas deve-se usar a tag"<li>"(list iten)
+  podemos misturar as listas colocando-as dentros das outras
+
+    as listas ordenadas colocam uma indentificação no item (números)
+      a tag para ela é "<ol>"
+      podemos mudar o tipo de indentificação dentro da tag com "type="" (i, I, a, A, 1)"
+
+    as listas não ordenadas não tem essa indentificação e coloca como uma lista normal(por padrão coloca uma bola antes de cada item)
+      a tag para essa lista é "<ul>"
+      também mudamos a indentificação (da mesma maneira) colocando "circle, square, disc"
+
+    as listas de definição são usadas com a tag "<dl>"
+      para colocar um item dessa lista use a tag "<dt>"
+        para colocar a definição use a tag "<dd>"
+
+//LINKS
+
+  para fazer que links abram em uma nova guia, defina dentro da sua tag:
+    target="_blank" rel="external"
+
+ 

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+*{
+height: 100%;
+}
+
+body{
+    background-image: linear-gradient(90deg,rgb(250, 223, 198) 67%,rgb(248, 202, 149));
+}
