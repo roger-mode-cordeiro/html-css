@@ -1,0 +1,2 @@
+PARA COLOCAR IMAGENS DE BACKGROUND:
+    usar "background-image: url('');"
