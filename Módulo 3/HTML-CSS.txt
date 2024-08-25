@@ -1,2 +1,3 @@
 PARA COLOCAR IMAGENS DE BACKGROUND:
     usar "background-image: url('');"
+        pode usar url da web ou de arquivos
