@@ -10,3 +10,32 @@
         repeat;
         size;(não funciona "ainda")
         attachment.
+
+//ALINHAMENTO:
+    alinhamento vertical
+        posição da caixa principal relativa(caixa de fora)
+            position: relative;
+        e da caixa do conteúdo absoluta(caixa de dentro)
+            position: absolute;
+        fazendo isso pode se mudar a distância de esquerda e topo usando o ponto de ancoragem que é no canto esquerdo superior
+            top: 50%;
+            left; 50%;
+        depois transformação de 50% pra cima e esquerda
+            transform: translate(-50%, -50%);
+
+        por fim fica assim
+            <style>
+                caixa-principal{
+                    position: relative;
+                    height: x;
+                }  
+
+                caixa-do-conteúdo{
+                    position: absolute;
+                    height: x;
+                    widht: x;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%)
+                }
+            </style>
