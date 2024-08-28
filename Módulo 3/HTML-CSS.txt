@@ -39,3 +39,9 @@
                     transform: translate(-50%, -50%)
                 }
             </style>
+
+//TABELAS:
+    <table></table>
+
+    hierarquia de tabelas(simples)
+        table > table-row > table-header > table-data
