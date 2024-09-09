@@ -45,3 +45,8 @@
 
     hierarquia de tabelas(simples)
         table > table-row > table-header > table-data
+
+    anatomia tabelas (grandes)
+        thead (td, tr, th [não obrigatório])
+        tbody (td, tr, th [não obrigatório])
+        tfoot (td, tr, th [não obrigatório])
