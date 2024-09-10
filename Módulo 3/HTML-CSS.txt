@@ -50,3 +50,19 @@
         thead (td, tr, th [não obrigatório])
         tbody (td, tr, th [não obrigatório])
         tfoot (td, tr, th [não obrigatório])
+    
+    caption(cabeça):
+        não pode usar tr/td
+
+    scope(básico):
+        usado para dizer o sentido semântico de um <th>
+        (se ele é um título de uma coluna ou de uma linha)
+
+    para fazer um efeito zebrado use a pseudo-classe
+        :nth-child({quantidade de linhas que se quer pular}n)
+
+    como fazer um título fixo:
+
+        table{
+            position: relative;
+        }
