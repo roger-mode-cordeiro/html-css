@@ -54,7 +54,7 @@
     caption(cabeça):
         não pode usar tr/td
 
-    scope(básico):
+    escopo(simples):
         usado para dizer o sentido semântico de um <th>
         (se ele é um título de uma coluna ou de uma linha)
 
@@ -66,3 +66,17 @@
         table{
             position: relative;
         }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+        }
+
+        mesclagem de células:
+            existe a expansão de linha e de coluna;
+
+            coluna:
+                <td colspan="quantidade de colunas a se ocupar"></td>
+
+            linha:
+                <td rowspan="quantidade de linhas a se ocupar"></td>
