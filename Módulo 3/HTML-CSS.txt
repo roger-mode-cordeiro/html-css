@@ -72,11 +72,11 @@
             top: 0;
         }
 
-        mesclagem de células:
-            existe a expansão de linha e de coluna;
+    mesclagem de células:
+        existe a expansão de linha e de coluna;
 
-            coluna:
-                <td colspan="quantidade de colunas a se ocupar"></td>
+        coluna:
+            <td colspan="quantidade de colunas a se ocupar"></td>
 
-            linha:
-                <td rowspan="quantidade de linhas a se ocupar"></td>
+        linha:
+            <td rowspan="quantidade de linhas a se ocupar"></td>
